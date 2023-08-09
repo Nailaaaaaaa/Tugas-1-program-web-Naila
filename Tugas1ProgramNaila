@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>From Login</title>
+	<style type="text/css">
+		body{
+			background-image:url('naii.jpg'); 
+			background-size: cover;
+			background-repeat: no-repeat;
+			height:60px;
+			width:50px;
+			text-align: center;
+		}
+		fieldset{
+			position: absolute;
+			border: 2px solid black;
+
+		}
+		form{
+			position: ;
+			left:50%
+			top:50%;
+			border: transparent;
+			padding:40px;
+			height:2px;
+			width:2px;	
+
+			}
+		label{
+			color:black;
+			font-family:time new roman;
+			font-size:80;
+		}	
+		input{
+			color:black;
+			font-family:times new roman;
+			font-size: 80%
+
+		}
+		h1{
+			color:blue;
+			font-family:times new roman;
+			font-size: 100%
+			position: absolute; 
+		}
+
+
+
+
+		</style>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Login</legend>
+			<p>
+				<label>Username:</label>
+				<input type="text" name="Username" placeholder="Username...">	
+			</p>
+			<p>
+				<label>Password:</label>
+				<input type="text" name="Password" placeholder="Password..."/>
+			</p>
+				<label><input type="checkbox" name="remember" value="remember"/>Remember
+				</label>
+			
+			<p>
+				<input type="submit" name="submit" value="Login"/>
+			
+			</p>
+		</fieldset>
+	</form>
+</body>
+</html>
